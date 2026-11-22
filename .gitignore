@@ -17,3 +17,4 @@ venv/
 dados/
 modelos_treinados/
 resultados/
+yolo11n-pose.pt
