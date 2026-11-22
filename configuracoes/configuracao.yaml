@@ -1,0 +1,33 @@
+seed: 42
+quantidade_sequencias: 128
+comprimento_sequencia: 60
+qtde_articulacoes: 17
+dimensao_pose: 2
+fps: 30
+janela_temporal: 10
+horizontes_previsao:
+  - 5
+  - 10
+  - 20
+proporcao_treinamento: 0.70
+proporcao_validacao: 0.15
+proporcao_teste: 0.15
+qtde_episodios: 30
+batch_size: 32
+taxa_aprendizado: 0.001
+patiencia_early_stopping: 10
+oclusao_curta: 5
+oclusao_longa: 20
+quadros_iniciais_visiveis: 5
+movimentos:
+  - caminhada
+  - corrida
+  - sentar_levantar
+  - movimentos_braços
+  - mudança_direção
+algoritmos:
+  - ekf
+  - lstm
+  - gru
+  - transformer
+  - tgnn
