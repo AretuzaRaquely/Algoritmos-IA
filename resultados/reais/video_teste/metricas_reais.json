@@ -1,0 +1,102 @@
+{
+  "ekf": {
+    "5": {
+      "quantidade_pontos": 18486,
+      "mae": 0.05634024366736412,
+      "rmse": 0.1688021868467331,
+      "erro_euclidiano_medio": 0.09035494178533554
+    },
+    "10": {
+      "quantidade_pontos": 18326,
+      "mae": 0.0978764072060585,
+      "rmse": 0.2861531376838684,
+      "erro_euclidiano_medio": 0.15747100114822388
+    },
+    "20": {
+      "quantidade_pontos": 17990,
+      "mae": 0.1707005649805069,
+      "rmse": 0.49944064021110535,
+      "erro_euclidiano_medio": 0.27393731474876404
+    }
+  },
+  "lstm": {
+    "5": {
+      "quantidade_pontos": 18486,
+      "mae": 0.14517751336097717,
+      "rmse": 0.17981454730033875,
+      "erro_euclidiano_medio": 0.22324511408805847
+    },
+    "10": {
+      "quantidade_pontos": 18326,
+      "mae": 0.1468317061662674,
+      "rmse": 0.18409329652786255,
+      "erro_euclidiano_medio": 0.22568148374557495
+    },
+    "20": {
+      "quantidade_pontos": 17990,
+      "mae": 0.141486257314682,
+      "rmse": 0.17775343358516693,
+      "erro_euclidiano_medio": 0.2180725485086441
+    }
+  },
+  "gru": {
+    "5": {
+      "quantidade_pontos": 18486,
+      "mae": 0.1391041874885559,
+      "rmse": 0.1730184257030487,
+      "erro_euclidiano_medio": 0.21141661703586578
+    },
+    "10": {
+      "quantidade_pontos": 18326,
+      "mae": 0.13958492875099182,
+      "rmse": 0.17714780569076538,
+      "erro_euclidiano_medio": 0.21538051962852478
+    },
+    "20": {
+      "quantidade_pontos": 17990,
+      "mae": 0.1423541009426117,
+      "rmse": 0.18445688486099243,
+      "erro_euclidiano_medio": 0.2232065200805664
+    }
+  },
+  "transformer": {
+    "5": {
+      "quantidade_pontos": 18486,
+      "mae": 0.15438786149024963,
+      "rmse": 0.207538440823555,
+      "erro_euclidiano_medio": 0.2387763410806656
+    },
+    "10": {
+      "quantidade_pontos": 18326,
+      "mae": 0.15944470465183258,
+      "rmse": 0.2172347754240036,
+      "erro_euclidiano_medio": 0.24841435253620148
+    },
+    "20": {
+      "quantidade_pontos": 17990,
+      "mae": 0.15256117284297943,
+      "rmse": 0.2097465991973877,
+      "erro_euclidiano_medio": 0.24269738793373108
+    }
+  },
+  "tgnn": {
+    "5": {
+      "quantidade_pontos": 18486,
+      "mae": 0.07512832432985306,
+      "rmse": 0.13533973693847656,
+      "erro_euclidiano_medio": 0.11976046860218048
+    },
+    "10": {
+      "quantidade_pontos": 18326,
+      "mae": 0.09154178947210312,
+      "rmse": 0.16055752336978912,
+      "erro_euclidiano_medio": 0.14219386875629425
+    },
+    "20": {
+      "quantidade_pontos": 17990,
+      "mae": 0.10801402479410172,
+      "rmse": 0.1749192327260971,
+      "erro_euclidiano_medio": 0.16965986788272858
+    }
+  }
+}
